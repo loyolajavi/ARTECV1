@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace ARTEC.GUI
 {
-    public partial class Form1 : Form
+    public partial class Form1 : DevComponents.DotNetBar.Metro.MetroForm
     {
         public Form1()
         {
@@ -21,6 +21,16 @@ namespace ARTEC.GUI
             MessageBox.Show(unUsuario.NombreUsuario);
             
             
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void metroTileItem1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
