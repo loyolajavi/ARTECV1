@@ -15,6 +15,12 @@ namespace ARTEC.GUI
         public Form1()
         {
             InitializeComponent();
+            Framework.Loyola.Usuario unUsuario = new Framework.Loyola.Usuario();
+            unUsuario.NombreUsuario = "hola";
+            MessageBox.Show("Test");
+            MessageBox.Show(unUsuario.NombreUsuario);
+            
+            
         }
     }
 }
