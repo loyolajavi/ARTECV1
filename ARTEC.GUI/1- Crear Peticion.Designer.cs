@@ -31,7 +31,7 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
-            this.textBoxX1 = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.txtCantidadBien = new DevComponents.DotNetBar.Controls.TextBoxX();
             this.labelX1 = new DevComponents.DotNetBar.LabelX();
             this.labelX2 = new DevComponents.DotNetBar.LabelX();
             this.labelX3 = new DevComponents.DotNetBar.LabelX();
@@ -54,19 +54,19 @@
             // 
             // textBoxX1
             // 
-            this.textBoxX1.BackColor = System.Drawing.Color.White;
+            this.txtCantidadBien.BackColor = System.Drawing.Color.White;
             // 
             // 
             // 
-            this.textBoxX1.Border.Class = "TextBoxBorder";
-            this.textBoxX1.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.textBoxX1.DisabledBackColor = System.Drawing.Color.White;
-            this.textBoxX1.ForeColor = System.Drawing.Color.Black;
-            this.textBoxX1.Location = new System.Drawing.Point(79, 91);
-            this.textBoxX1.Name = "textBoxX1";
-            this.textBoxX1.PreventEnterBeep = true;
-            this.textBoxX1.Size = new System.Drawing.Size(27, 20);
-            this.textBoxX1.TabIndex = 0;
+            this.txtCantidadBien.Border.Class = "TextBoxBorder";
+            this.txtCantidadBien.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.txtCantidadBien.DisabledBackColor = System.Drawing.Color.White;
+            this.txtCantidadBien.ForeColor = System.Drawing.Color.Black;
+            this.txtCantidadBien.Location = new System.Drawing.Point(79, 91);
+            this.txtCantidadBien.Name = "textBoxX1";
+            this.txtCantidadBien.PreventEnterBeep = true;
+            this.txtCantidadBien.Size = new System.Drawing.Size(27, 20);
+            this.txtCantidadBien.TabIndex = 0;
             // 
             // labelX1
             // 
@@ -323,7 +323,7 @@
             this.Controls.Add(this.labelX3);
             this.Controls.Add(this.labelX2);
             this.Controls.Add(this.labelX1);
-            this.Controls.Add(this.textBoxX1);
+            this.Controls.Add(this.txtCantidadBien);
             this.DoubleBuffered = true;
             this.Name = "_1__Crear_Peticion";
             this.Text = "_1__Crear_Peticion";
@@ -334,7 +334,7 @@
 
         #endregion
 
-        private DevComponents.DotNetBar.Controls.TextBoxX textBoxX1;
+        private DevComponents.DotNetBar.Controls.TextBoxX txtCantidadBien;
         private DevComponents.DotNetBar.LabelX labelX1;
         private DevComponents.DotNetBar.LabelX labelX2;
         private DevComponents.DotNetBar.LabelX labelX3;
