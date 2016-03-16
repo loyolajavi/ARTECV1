@@ -28,247 +28,245 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
-            this.txtCantidadBien = new DevComponents.DotNetBar.Controls.TextBoxX();
-            this.labelX1 = new DevComponents.DotNetBar.LabelX();
-            this.labelX2 = new DevComponents.DotNetBar.LabelX();
-            this.labelX3 = new DevComponents.DotNetBar.LabelX();
-            this.labelX4 = new DevComponents.DotNetBar.LabelX();
-            this.labelX5 = new DevComponents.DotNetBar.LabelX();
-            this.buttonX1 = new DevComponents.DotNetBar.ButtonX();
-            this.dataGridViewX1 = new DevComponents.DotNetBar.Controls.DataGridViewX();
-            this.labelX6 = new DevComponents.DotNetBar.LabelX();
-            this.labelX7 = new DevComponents.DotNetBar.LabelX();
-            this.labelX8 = new DevComponents.DotNetBar.LabelX();
-            this.labelX9 = new DevComponents.DotNetBar.LabelX();
-            this.labelX10 = new DevComponents.DotNetBar.LabelX();
-            this.labelX11 = new DevComponents.DotNetBar.LabelX();
-            this.labelX12 = new DevComponents.DotNetBar.LabelX();
-            this.labelX13 = new DevComponents.DotNetBar.LabelX();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            this.lblExpediente = new DevComponents.DotNetBar.LabelX();
+            this.lblBien = new DevComponents.DotNetBar.LabelX();
+            this.lblCantidadBien = new DevComponents.DotNetBar.LabelX();
+            this.lblDependencia = new DevComponents.DotNetBar.LabelX();
+            this.lblNroDependencia = new DevComponents.DotNetBar.LabelX();
+            this.btnAgregarBien = new DevComponents.DotNetBar.ButtonX();
+            this.GrillaBien = new DevComponents.DotNetBar.Controls.DataGridViewX();
+            this.lblDescripcion = new DevComponents.DotNetBar.LabelX();
+            this.lblContacto = new DevComponents.DotNetBar.LabelX();
+            this.lblAdjunto = new DevComponents.DotNetBar.LabelX();
+            this.lblFechaInicio = new DevComponents.DotNetBar.LabelX();
+            this.lblFechaFin = new DevComponents.DotNetBar.LabelX();
+            this.lblResponsable = new DevComponents.DotNetBar.LabelX();
+            this.lblPrioridad = new DevComponents.DotNetBar.LabelX();
+            this.lblEstado = new DevComponents.DotNetBar.LabelX();
             this.cboxExpediente = new DevComponents.DotNetBar.Controls.CheckBoxX();
             this.txtExpediente = new DevComponents.DotNetBar.Controls.TextBoxX();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewX1)).BeginInit();
+            this.txtBien = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.txtCantidadBien = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.txtResponsable = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.fchFin = new DevComponents.Editors.DateTimeAdv.DateTimeInput();
+            this.fchInicio = new DevComponents.Editors.DateTimeAdv.DateTimeInput();
+            this.txtPrioridad = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.txtEstado = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.txtNroDepedencia = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.txtDependencia = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.txtDescripcion = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.txtContacto = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.txtAdjunto = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.btnCrearPeticion = new DevComponents.DotNetBar.ButtonX();
+            ((System.ComponentModel.ISupportInitialize)(this.GrillaBien)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.fchFin)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.fchInicio)).BeginInit();
             this.SuspendLayout();
             // 
-            // textBoxX1
+            // lblExpediente
             // 
-            this.txtCantidadBien.BackColor = System.Drawing.Color.White;
             // 
             // 
             // 
-            this.txtCantidadBien.Border.Class = "TextBoxBorder";
-            this.txtCantidadBien.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.txtCantidadBien.DisabledBackColor = System.Drawing.Color.White;
-            this.txtCantidadBien.ForeColor = System.Drawing.Color.Black;
-            this.txtCantidadBien.Location = new System.Drawing.Point(79, 91);
-            this.txtCantidadBien.Name = "textBoxX1";
-            this.txtCantidadBien.PreventEnterBeep = true;
-            this.txtCantidadBien.Size = new System.Drawing.Size(27, 20);
-            this.txtCantidadBien.TabIndex = 0;
+            this.lblExpediente.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblExpediente.Location = new System.Drawing.Point(12, 12);
+            this.lblExpediente.Name = "lblExpediente";
+            this.lblExpediente.Size = new System.Drawing.Size(75, 23);
+            this.lblExpediente.TabIndex = 1;
+            this.lblExpediente.Text = "Expediente";
             // 
-            // labelX1
+            // lblBien
             // 
             // 
             // 
             // 
-            this.labelX1.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX1.Location = new System.Drawing.Point(12, 12);
-            this.labelX1.Name = "labelX1";
-            this.labelX1.Size = new System.Drawing.Size(75, 23);
-            this.labelX1.TabIndex = 1;
-            this.labelX1.Text = "Expediente";
+            this.lblBien.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblBien.Location = new System.Drawing.Point(12, 62);
+            this.lblBien.Name = "lblBien";
+            this.lblBien.Size = new System.Drawing.Size(75, 23);
+            this.lblBien.TabIndex = 2;
+            this.lblBien.Text = "Bien/Servicio";
             // 
-            // labelX2
+            // lblCantidadBien
             // 
             // 
             // 
             // 
-            this.labelX2.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX2.Location = new System.Drawing.Point(12, 62);
-            this.labelX2.Name = "labelX2";
-            this.labelX2.Size = new System.Drawing.Size(75, 23);
-            this.labelX2.TabIndex = 2;
-            this.labelX2.Text = "Bien/Servicio";
+            this.lblCantidadBien.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblCantidadBien.Location = new System.Drawing.Point(12, 91);
+            this.lblCantidadBien.Name = "lblCantidadBien";
+            this.lblCantidadBien.Size = new System.Drawing.Size(61, 23);
+            this.lblCantidadBien.TabIndex = 3;
+            this.lblCantidadBien.Text = "Cantidad";
             // 
-            // labelX3
+            // lblDependencia
             // 
             // 
             // 
             // 
-            this.labelX3.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX3.Location = new System.Drawing.Point(12, 91);
-            this.labelX3.Name = "labelX3";
-            this.labelX3.Size = new System.Drawing.Size(75, 23);
-            this.labelX3.TabIndex = 3;
-            this.labelX3.Text = "Cantidad";
+            this.lblDependencia.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblDependencia.Location = new System.Drawing.Point(12, 239);
+            this.lblDependencia.Name = "lblDependencia";
+            this.lblDependencia.Size = new System.Drawing.Size(75, 23);
+            this.lblDependencia.TabIndex = 4;
+            this.lblDependencia.Text = "Dependencia";
             // 
-            // labelX4
+            // lblNroDependencia
             // 
             // 
             // 
             // 
-            this.labelX4.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX4.Location = new System.Drawing.Point(12, 239);
-            this.labelX4.Name = "labelX4";
-            this.labelX4.Size = new System.Drawing.Size(75, 23);
-            this.labelX4.TabIndex = 4;
-            this.labelX4.Text = "Dependencia";
+            this.lblNroDependencia.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblNroDependencia.Location = new System.Drawing.Point(93, 239);
+            this.lblNroDependencia.Name = "lblNroDependencia";
+            this.lblNroDependencia.Size = new System.Drawing.Size(75, 23);
+            this.lblNroDependencia.TabIndex = 5;
+            this.lblNroDependencia.Text = "Nro";
             // 
-            // labelX5
+            // btnAgregarBien
             // 
+            this.btnAgregarBien.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnAgregarBien.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.btnAgregarBien.Location = new System.Drawing.Point(177, 91);
+            this.btnAgregarBien.Name = "btnAgregarBien";
+            this.btnAgregarBien.Size = new System.Drawing.Size(75, 23);
+            this.btnAgregarBien.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.btnAgregarBien.TabIndex = 6;
+            this.btnAgregarBien.Text = "Agregar";
             // 
+            // GrillaBien
             // 
+            this.GrillaBien.BackgroundColor = System.Drawing.Color.White;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.GrillaBien.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
+            this.GrillaBien.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.GrillaBien.DefaultCellStyle = dataGridViewCellStyle5;
+            this.GrillaBien.EnableHeadersVisualStyles = false;
+            this.GrillaBien.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(170)))), ((int)(((byte)(170)))));
+            this.GrillaBien.Location = new System.Drawing.Point(12, 120);
+            this.GrillaBien.Name = "GrillaBien";
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.GrillaBien.RowHeadersDefaultCellStyle = dataGridViewCellStyle6;
+            this.GrillaBien.Size = new System.Drawing.Size(335, 90);
+            this.GrillaBien.TabIndex = 7;
             // 
-            this.labelX5.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX5.Location = new System.Drawing.Point(93, 239);
-            this.labelX5.Name = "labelX5";
-            this.labelX5.Size = new System.Drawing.Size(75, 23);
-            this.labelX5.TabIndex = 5;
-            this.labelX5.Text = "Nro";
+            // lblDescripcion
             // 
-            // buttonX1
             // 
-            this.buttonX1.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.buttonX1.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.buttonX1.Location = new System.Drawing.Point(177, 91);
-            this.buttonX1.Name = "buttonX1";
-            this.buttonX1.Size = new System.Drawing.Size(75, 23);
-            this.buttonX1.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.buttonX1.TabIndex = 6;
-            this.buttonX1.Text = "Agregar";
             // 
-            // dataGridViewX1
             // 
-            this.dataGridViewX1.BackgroundColor = System.Drawing.Color.White;
-            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle7.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle7.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridViewX1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle7;
-            this.dataGridViewX1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle8.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle8.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridViewX1.DefaultCellStyle = dataGridViewCellStyle8;
-            this.dataGridViewX1.EnableHeadersVisualStyles = false;
-            this.dataGridViewX1.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(170)))), ((int)(((byte)(170)))));
-            this.dataGridViewX1.Location = new System.Drawing.Point(12, 120);
-            this.dataGridViewX1.Name = "dataGridViewX1";
-            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle9.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle9.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle9.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridViewX1.RowHeadersDefaultCellStyle = dataGridViewCellStyle9;
-            this.dataGridViewX1.Size = new System.Drawing.Size(240, 90);
-            this.dataGridViewX1.TabIndex = 7;
+            this.lblDescripcion.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblDescripcion.Location = new System.Drawing.Point(12, 282);
+            this.lblDescripcion.Name = "lblDescripcion";
+            this.lblDescripcion.Size = new System.Drawing.Size(75, 23);
+            this.lblDescripcion.TabIndex = 8;
+            this.lblDescripcion.Text = "Descripcion";
             // 
-            // labelX6
+            // lblContacto
             // 
             // 
             // 
             // 
-            this.labelX6.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX6.Location = new System.Drawing.Point(12, 282);
-            this.labelX6.Name = "labelX6";
-            this.labelX6.Size = new System.Drawing.Size(75, 23);
-            this.labelX6.TabIndex = 8;
-            this.labelX6.Text = "Descripcion";
+            this.lblContacto.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblContacto.Location = new System.Drawing.Point(12, 366);
+            this.lblContacto.Name = "lblContacto";
+            this.lblContacto.Size = new System.Drawing.Size(75, 23);
+            this.lblContacto.TabIndex = 9;
+            this.lblContacto.Text = "Contacto";
             // 
-            // labelX7
+            // lblAdjunto
             // 
             // 
             // 
             // 
-            this.labelX7.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX7.Location = new System.Drawing.Point(12, 325);
-            this.labelX7.Name = "labelX7";
-            this.labelX7.Size = new System.Drawing.Size(75, 23);
-            this.labelX7.TabIndex = 9;
-            this.labelX7.Text = "Contacto";
+            this.lblAdjunto.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblAdjunto.Location = new System.Drawing.Point(12, 406);
+            this.lblAdjunto.Name = "lblAdjunto";
+            this.lblAdjunto.Size = new System.Drawing.Size(75, 23);
+            this.lblAdjunto.TabIndex = 10;
+            this.lblAdjunto.Text = "Adjuntar oficio";
             // 
-            // labelX8
+            // lblFechaInicio
             // 
             // 
             // 
             // 
-            this.labelX8.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX8.Location = new System.Drawing.Point(12, 375);
-            this.labelX8.Name = "labelX8";
-            this.labelX8.Size = new System.Drawing.Size(75, 23);
-            this.labelX8.TabIndex = 10;
-            this.labelX8.Text = "Adjuntar oficio";
+            this.lblFechaInicio.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblFechaInicio.Location = new System.Drawing.Point(367, 36);
+            this.lblFechaInicio.Name = "lblFechaInicio";
+            this.lblFechaInicio.Size = new System.Drawing.Size(75, 23);
+            this.lblFechaInicio.TabIndex = 11;
+            this.lblFechaInicio.Text = "Fecha Inicio";
             // 
-            // labelX9
+            // lblFechaFin
             // 
             // 
             // 
             // 
-            this.labelX9.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX9.Location = new System.Drawing.Point(367, 36);
-            this.labelX9.Name = "labelX9";
-            this.labelX9.Size = new System.Drawing.Size(75, 23);
-            this.labelX9.TabIndex = 11;
-            this.labelX9.Text = "Fecha Inicio";
+            this.lblFechaFin.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblFechaFin.Location = new System.Drawing.Point(367, 65);
+            this.lblFechaFin.Name = "lblFechaFin";
+            this.lblFechaFin.Size = new System.Drawing.Size(75, 23);
+            this.lblFechaFin.TabIndex = 12;
+            this.lblFechaFin.Text = "Fecha Fin";
             // 
-            // labelX10
+            // lblResponsable
             // 
             // 
             // 
             // 
-            this.labelX10.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX10.Location = new System.Drawing.Point(367, 65);
-            this.labelX10.Name = "labelX10";
-            this.labelX10.Size = new System.Drawing.Size(75, 23);
-            this.labelX10.TabIndex = 12;
-            this.labelX10.Text = "Fecha Fin";
+            this.lblResponsable.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblResponsable.Location = new System.Drawing.Point(367, 110);
+            this.lblResponsable.Name = "lblResponsable";
+            this.lblResponsable.Size = new System.Drawing.Size(75, 23);
+            this.lblResponsable.TabIndex = 13;
+            this.lblResponsable.Text = "Responsable";
             // 
-            // labelX11
+            // lblPrioridad
             // 
             // 
             // 
             // 
-            this.labelX11.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX11.Location = new System.Drawing.Point(367, 110);
-            this.labelX11.Name = "labelX11";
-            this.labelX11.Size = new System.Drawing.Size(75, 23);
-            this.labelX11.TabIndex = 13;
-            this.labelX11.Text = "Responsable";
+            this.lblPrioridad.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblPrioridad.Location = new System.Drawing.Point(367, 139);
+            this.lblPrioridad.Name = "lblPrioridad";
+            this.lblPrioridad.Size = new System.Drawing.Size(75, 23);
+            this.lblPrioridad.TabIndex = 14;
+            this.lblPrioridad.Text = "Prioridad";
             // 
-            // labelX12
+            // lblEstado
             // 
             // 
             // 
             // 
-            this.labelX12.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX12.Location = new System.Drawing.Point(367, 139);
-            this.labelX12.Name = "labelX12";
-            this.labelX12.Size = new System.Drawing.Size(75, 23);
-            this.labelX12.TabIndex = 14;
-            this.labelX12.Text = "Prioridad";
-            // 
-            // labelX13
-            // 
-            // 
-            // 
-            // 
-            this.labelX13.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX13.Location = new System.Drawing.Point(367, 168);
-            this.labelX13.Name = "labelX13";
-            this.labelX13.Size = new System.Drawing.Size(75, 23);
-            this.labelX13.TabIndex = 15;
-            this.labelX13.Text = "Estado";
+            this.lblEstado.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblEstado.Location = new System.Drawing.Point(367, 168);
+            this.lblEstado.Name = "lblEstado";
+            this.lblEstado.Size = new System.Drawing.Size(75, 23);
+            this.lblEstado.TabIndex = 15;
+            this.lblEstado.Text = "Estado";
             // 
             // cboxExpediente
             // 
@@ -276,7 +274,7 @@
             // 
             // 
             this.cboxExpediente.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.cboxExpediente.Location = new System.Drawing.Point(70, 12);
+            this.cboxExpediente.Location = new System.Drawing.Point(79, 12);
             this.cboxExpediente.Name = "cboxExpediente";
             this.cboxExpediente.Size = new System.Drawing.Size(17, 23);
             this.cboxExpediente.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
@@ -294,64 +292,377 @@
             this.txtExpediente.DisabledBackColor = System.Drawing.Color.White;
             this.txtExpediente.Enabled = false;
             this.txtExpediente.ForeColor = System.Drawing.Color.Black;
-            this.txtExpediente.Location = new System.Drawing.Point(70, 12);
+            this.txtExpediente.Location = new System.Drawing.Point(79, 12);
             this.txtExpediente.Name = "txtExpediente";
             this.txtExpediente.PreventEnterBeep = true;
-            this.txtExpediente.Size = new System.Drawing.Size(100, 20);
+            this.txtExpediente.Size = new System.Drawing.Size(89, 20);
             this.txtExpediente.TabIndex = 17;
             this.txtExpediente.Visible = false;
+            // 
+            // txtBien
+            // 
+            this.txtBien.BackColor = System.Drawing.Color.White;
+            // 
+            // 
+            // 
+            this.txtBien.Border.Class = "TextBoxBorder";
+            this.txtBien.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.txtBien.DisabledBackColor = System.Drawing.Color.White;
+            this.txtBien.Enabled = false;
+            this.txtBien.ForeColor = System.Drawing.Color.Black;
+            this.txtBien.Location = new System.Drawing.Point(79, 65);
+            this.txtBien.Name = "txtBien";
+            this.txtBien.PreventEnterBeep = true;
+            this.txtBien.Size = new System.Drawing.Size(89, 20);
+            this.txtBien.TabIndex = 18;
+            this.txtBien.Visible = false;
+            this.txtBien.TextChanged += new System.EventHandler(this.textBoxX1_TextChanged);
+            // 
+            // txtCantidadBien
+            // 
+            this.txtCantidadBien.BackColor = System.Drawing.Color.White;
+            // 
+            // 
+            // 
+            this.txtCantidadBien.Border.Class = "TextBoxBorder";
+            this.txtCantidadBien.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.txtCantidadBien.DisabledBackColor = System.Drawing.Color.White;
+            this.txtCantidadBien.Enabled = false;
+            this.txtCantidadBien.ForeColor = System.Drawing.Color.Black;
+            this.txtCantidadBien.Location = new System.Drawing.Point(79, 94);
+            this.txtCantidadBien.Name = "txtCantidadBien";
+            this.txtCantidadBien.PreventEnterBeep = true;
+            this.txtCantidadBien.Size = new System.Drawing.Size(29, 20);
+            this.txtCantidadBien.TabIndex = 19;
+            this.txtCantidadBien.Visible = false;
+            // 
+            // txtResponsable
+            // 
+            this.txtResponsable.BackColor = System.Drawing.Color.White;
+            // 
+            // 
+            // 
+            this.txtResponsable.Border.Class = "TextBoxBorder";
+            this.txtResponsable.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.txtResponsable.DisabledBackColor = System.Drawing.Color.White;
+            this.txtResponsable.Enabled = false;
+            this.txtResponsable.ForeColor = System.Drawing.Color.Black;
+            this.txtResponsable.Location = new System.Drawing.Point(448, 113);
+            this.txtResponsable.Name = "txtResponsable";
+            this.txtResponsable.PreventEnterBeep = true;
+            this.txtResponsable.Size = new System.Drawing.Size(89, 20);
+            this.txtResponsable.TabIndex = 20;
+            this.txtResponsable.Visible = false;
+            this.txtResponsable.TextChanged += new System.EventHandler(this.textBoxX3_TextChanged);
+            // 
+            // fchFin
+            // 
+            // 
+            // 
+            // 
+            this.fchFin.BackgroundStyle.Class = "DateTimeInputBackground";
+            this.fchFin.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.fchFin.ButtonDropDown.Shortcut = DevComponents.DotNetBar.eShortcut.AltDown;
+            this.fchFin.ButtonDropDown.Visible = true;
+            this.fchFin.IsPopupCalendarOpen = false;
+            this.fchFin.Location = new System.Drawing.Point(448, 65);
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            this.fchFin.MonthCalendar.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.fchFin.MonthCalendar.CalendarDimensions = new System.Drawing.Size(1, 1);
+            this.fchFin.MonthCalendar.ClearButtonVisible = true;
+            // 
+            // 
+            // 
+            this.fchFin.MonthCalendar.CommandsBackgroundStyle.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.BarBackground2;
+            this.fchFin.MonthCalendar.CommandsBackgroundStyle.BackColorGradientAngle = 90;
+            this.fchFin.MonthCalendar.CommandsBackgroundStyle.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.BarBackground;
+            this.fchFin.MonthCalendar.CommandsBackgroundStyle.BorderTop = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.fchFin.MonthCalendar.CommandsBackgroundStyle.BorderTopColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.BarDockedBorder;
+            this.fchFin.MonthCalendar.CommandsBackgroundStyle.BorderTopWidth = 1;
+            this.fchFin.MonthCalendar.CommandsBackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.fchFin.MonthCalendar.DisplayMonth = new System.DateTime(2016, 3, 1, 0, 0, 0, 0);
+            this.fchFin.MonthCalendar.FirstDayOfWeek = System.DayOfWeek.Monday;
+            // 
+            // 
+            // 
+            this.fchFin.MonthCalendar.NavigationBackgroundStyle.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground2;
+            this.fchFin.MonthCalendar.NavigationBackgroundStyle.BackColorGradientAngle = 90;
+            this.fchFin.MonthCalendar.NavigationBackgroundStyle.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
+            this.fchFin.MonthCalendar.NavigationBackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.fchFin.MonthCalendar.TodayButtonVisible = true;
+            this.fchFin.Name = "fchFin";
+            this.fchFin.Size = new System.Drawing.Size(89, 20);
+            this.fchFin.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.fchFin.TabIndex = 21;
+            // 
+            // fchInicio
+            // 
+            // 
+            // 
+            // 
+            this.fchInicio.BackgroundStyle.Class = "DateTimeInputBackground";
+            this.fchInicio.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.fchInicio.ButtonDropDown.Shortcut = DevComponents.DotNetBar.eShortcut.AltDown;
+            this.fchInicio.ButtonDropDown.Visible = true;
+            this.fchInicio.IsPopupCalendarOpen = false;
+            this.fchInicio.Location = new System.Drawing.Point(448, 36);
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            this.fchInicio.MonthCalendar.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.fchInicio.MonthCalendar.CalendarDimensions = new System.Drawing.Size(1, 1);
+            this.fchInicio.MonthCalendar.ClearButtonVisible = true;
+            // 
+            // 
+            // 
+            this.fchInicio.MonthCalendar.CommandsBackgroundStyle.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.BarBackground2;
+            this.fchInicio.MonthCalendar.CommandsBackgroundStyle.BackColorGradientAngle = 90;
+            this.fchInicio.MonthCalendar.CommandsBackgroundStyle.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.BarBackground;
+            this.fchInicio.MonthCalendar.CommandsBackgroundStyle.BorderTop = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.fchInicio.MonthCalendar.CommandsBackgroundStyle.BorderTopColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.BarDockedBorder;
+            this.fchInicio.MonthCalendar.CommandsBackgroundStyle.BorderTopWidth = 1;
+            this.fchInicio.MonthCalendar.CommandsBackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.fchInicio.MonthCalendar.DisplayMonth = new System.DateTime(2016, 3, 1, 0, 0, 0, 0);
+            this.fchInicio.MonthCalendar.FirstDayOfWeek = System.DayOfWeek.Monday;
+            // 
+            // 
+            // 
+            this.fchInicio.MonthCalendar.NavigationBackgroundStyle.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground2;
+            this.fchInicio.MonthCalendar.NavigationBackgroundStyle.BackColorGradientAngle = 90;
+            this.fchInicio.MonthCalendar.NavigationBackgroundStyle.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
+            this.fchInicio.MonthCalendar.NavigationBackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.fchInicio.MonthCalendar.TodayButtonVisible = true;
+            this.fchInicio.Name = "fchInicio";
+            this.fchInicio.Size = new System.Drawing.Size(89, 20);
+            this.fchInicio.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.fchInicio.TabIndex = 22;
+            this.fchInicio.Click += new System.EventHandler(this.dateTimeInput2_Click);
+            // 
+            // txtPrioridad
+            // 
+            this.txtPrioridad.BackColor = System.Drawing.Color.White;
+            // 
+            // 
+            // 
+            this.txtPrioridad.Border.Class = "TextBoxBorder";
+            this.txtPrioridad.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.txtPrioridad.DisabledBackColor = System.Drawing.Color.White;
+            this.txtPrioridad.Enabled = false;
+            this.txtPrioridad.ForeColor = System.Drawing.Color.Black;
+            this.txtPrioridad.Location = new System.Drawing.Point(448, 142);
+            this.txtPrioridad.Name = "txtPrioridad";
+            this.txtPrioridad.PreventEnterBeep = true;
+            this.txtPrioridad.Size = new System.Drawing.Size(89, 20);
+            this.txtPrioridad.TabIndex = 23;
+            this.txtPrioridad.Visible = false;
+            // 
+            // txtEstado
+            // 
+            this.txtEstado.BackColor = System.Drawing.Color.White;
+            // 
+            // 
+            // 
+            this.txtEstado.Border.Class = "TextBoxBorder";
+            this.txtEstado.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.txtEstado.DisabledBackColor = System.Drawing.Color.White;
+            this.txtEstado.Enabled = false;
+            this.txtEstado.ForeColor = System.Drawing.Color.Black;
+            this.txtEstado.Location = new System.Drawing.Point(448, 168);
+            this.txtEstado.Name = "txtEstado";
+            this.txtEstado.PreventEnterBeep = true;
+            this.txtEstado.Size = new System.Drawing.Size(89, 20);
+            this.txtEstado.TabIndex = 24;
+            this.txtEstado.Visible = false;
+            // 
+            // txtNroDepedencia
+            // 
+            this.txtNroDepedencia.BackColor = System.Drawing.Color.White;
+            // 
+            // 
+            // 
+            this.txtNroDepedencia.Border.Class = "TextBoxBorder";
+            this.txtNroDepedencia.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.txtNroDepedencia.DisabledBackColor = System.Drawing.Color.White;
+            this.txtNroDepedencia.Enabled = false;
+            this.txtNroDepedencia.ForeColor = System.Drawing.Color.Black;
+            this.txtNroDepedencia.Location = new System.Drawing.Point(117, 242);
+            this.txtNroDepedencia.Name = "txtNroDepedencia";
+            this.txtNroDepedencia.PreventEnterBeep = true;
+            this.txtNroDepedencia.Size = new System.Drawing.Size(28, 20);
+            this.txtNroDepedencia.TabIndex = 25;
+            this.txtNroDepedencia.Visible = false;
+            // 
+            // txtDependencia
+            // 
+            this.txtDependencia.BackColor = System.Drawing.Color.White;
+            // 
+            // 
+            // 
+            this.txtDependencia.Border.Class = "TextBoxBorder";
+            this.txtDependencia.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.txtDependencia.DisabledBackColor = System.Drawing.Color.White;
+            this.txtDependencia.Enabled = false;
+            this.txtDependencia.ForeColor = System.Drawing.Color.Black;
+            this.txtDependencia.Location = new System.Drawing.Point(151, 242);
+            this.txtDependencia.Name = "txtDependencia";
+            this.txtDependencia.PreventEnterBeep = true;
+            this.txtDependencia.Size = new System.Drawing.Size(89, 20);
+            this.txtDependencia.TabIndex = 26;
+            this.txtDependencia.Visible = false;
+            // 
+            // txtDescripcion
+            // 
+            this.txtDescripcion.BackColor = System.Drawing.Color.White;
+            // 
+            // 
+            // 
+            this.txtDescripcion.Border.Class = "TextBoxBorder";
+            this.txtDescripcion.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.txtDescripcion.DisabledBackColor = System.Drawing.Color.White;
+            this.txtDescripcion.Enabled = false;
+            this.txtDescripcion.ForeColor = System.Drawing.Color.Black;
+            this.txtDescripcion.Location = new System.Drawing.Point(79, 282);
+            this.txtDescripcion.Multiline = true;
+            this.txtDescripcion.Name = "txtDescripcion";
+            this.txtDescripcion.PreventEnterBeep = true;
+            this.txtDescripcion.Size = new System.Drawing.Size(268, 65);
+            this.txtDescripcion.TabIndex = 27;
+            this.txtDescripcion.Visible = false;
+            this.txtDescripcion.TextChanged += new System.EventHandler(this.textBoxX8_TextChanged);
+            // 
+            // txtContacto
+            // 
+            this.txtContacto.BackColor = System.Drawing.Color.White;
+            // 
+            // 
+            // 
+            this.txtContacto.Border.Class = "TextBoxBorder";
+            this.txtContacto.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.txtContacto.DisabledBackColor = System.Drawing.Color.White;
+            this.txtContacto.Enabled = false;
+            this.txtContacto.ForeColor = System.Drawing.Color.Black;
+            this.txtContacto.Location = new System.Drawing.Point(79, 366);
+            this.txtContacto.Name = "txtContacto";
+            this.txtContacto.PreventEnterBeep = true;
+            this.txtContacto.Size = new System.Drawing.Size(89, 20);
+            this.txtContacto.TabIndex = 28;
+            this.txtContacto.Visible = false;
+            // 
+            // txtAdjunto
+            // 
+            this.txtAdjunto.BackColor = System.Drawing.Color.White;
+            // 
+            // 
+            // 
+            this.txtAdjunto.Border.Class = "TextBoxBorder";
+            this.txtAdjunto.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.txtAdjunto.DisabledBackColor = System.Drawing.Color.White;
+            this.txtAdjunto.Enabled = false;
+            this.txtAdjunto.ForeColor = System.Drawing.Color.Black;
+            this.txtAdjunto.Location = new System.Drawing.Point(93, 406);
+            this.txtAdjunto.Name = "txtAdjunto";
+            this.txtAdjunto.PreventEnterBeep = true;
+            this.txtAdjunto.Size = new System.Drawing.Size(254, 20);
+            this.txtAdjunto.TabIndex = 29;
+            this.txtAdjunto.Visible = false;
+            // 
+            // btnCrearPeticion
+            // 
+            this.btnCrearPeticion.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnCrearPeticion.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.btnCrearPeticion.Location = new System.Drawing.Point(345, 483);
+            this.btnCrearPeticion.Name = "btnCrearPeticion";
+            this.btnCrearPeticion.Size = new System.Drawing.Size(81, 23);
+            this.btnCrearPeticion.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.btnCrearPeticion.TabIndex = 30;
+            this.btnCrearPeticion.Text = "Crear Peticion";
             // 
             // _1__Crear_Peticion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(641, 523);
+            this.Controls.Add(this.btnCrearPeticion);
+            this.Controls.Add(this.txtAdjunto);
+            this.Controls.Add(this.txtContacto);
+            this.Controls.Add(this.txtDescripcion);
+            this.Controls.Add(this.txtDependencia);
+            this.Controls.Add(this.txtNroDepedencia);
+            this.Controls.Add(this.txtEstado);
+            this.Controls.Add(this.txtPrioridad);
+            this.Controls.Add(this.fchInicio);
+            this.Controls.Add(this.fchFin);
+            this.Controls.Add(this.txtResponsable);
+            this.Controls.Add(this.txtCantidadBien);
+            this.Controls.Add(this.txtBien);
             this.Controls.Add(this.txtExpediente);
             this.Controls.Add(this.cboxExpediente);
-            this.Controls.Add(this.labelX13);
-            this.Controls.Add(this.labelX12);
-            this.Controls.Add(this.labelX11);
-            this.Controls.Add(this.labelX10);
-            this.Controls.Add(this.labelX9);
-            this.Controls.Add(this.labelX8);
-            this.Controls.Add(this.labelX7);
-            this.Controls.Add(this.labelX6);
-            this.Controls.Add(this.dataGridViewX1);
-            this.Controls.Add(this.buttonX1);
-            this.Controls.Add(this.labelX5);
-            this.Controls.Add(this.labelX4);
-            this.Controls.Add(this.labelX3);
-            this.Controls.Add(this.labelX2);
-            this.Controls.Add(this.labelX1);
-            this.Controls.Add(this.txtCantidadBien);
+            this.Controls.Add(this.lblEstado);
+            this.Controls.Add(this.lblPrioridad);
+            this.Controls.Add(this.lblResponsable);
+            this.Controls.Add(this.lblFechaFin);
+            this.Controls.Add(this.lblFechaInicio);
+            this.Controls.Add(this.lblAdjunto);
+            this.Controls.Add(this.lblContacto);
+            this.Controls.Add(this.lblDescripcion);
+            this.Controls.Add(this.GrillaBien);
+            this.Controls.Add(this.btnAgregarBien);
+            this.Controls.Add(this.lblNroDependencia);
+            this.Controls.Add(this.lblDependencia);
+            this.Controls.Add(this.lblCantidadBien);
+            this.Controls.Add(this.lblBien);
+            this.Controls.Add(this.lblExpediente);
             this.DoubleBuffered = true;
             this.Name = "_1__Crear_Peticion";
             this.Text = "_1__Crear_Peticion";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewX1)).EndInit();
+            this.Load += new System.EventHandler(this._1__Crear_Peticion_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.GrillaBien)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.fchFin)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.fchInicio)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private DevComponents.DotNetBar.Controls.TextBoxX txtCantidadBien;
-        private DevComponents.DotNetBar.LabelX labelX1;
-        private DevComponents.DotNetBar.LabelX labelX2;
-        private DevComponents.DotNetBar.LabelX labelX3;
-        private DevComponents.DotNetBar.LabelX labelX4;
-        private DevComponents.DotNetBar.LabelX labelX5;
-        private DevComponents.DotNetBar.ButtonX buttonX1;
-        private DevComponents.DotNetBar.Controls.DataGridViewX dataGridViewX1;
-        private DevComponents.DotNetBar.LabelX labelX6;
-        private DevComponents.DotNetBar.LabelX labelX7;
-        private DevComponents.DotNetBar.LabelX labelX8;
-        private DevComponents.DotNetBar.LabelX labelX9;
-        private DevComponents.DotNetBar.LabelX labelX10;
-        private DevComponents.DotNetBar.LabelX labelX11;
-        private DevComponents.DotNetBar.LabelX labelX12;
-        private DevComponents.DotNetBar.LabelX labelX13;
+        private DevComponents.DotNetBar.LabelX lblExpediente;
+        private DevComponents.DotNetBar.LabelX lblBien;
+        private DevComponents.DotNetBar.LabelX lblCantidadBien;
+        private DevComponents.DotNetBar.LabelX lblDependencia;
+        private DevComponents.DotNetBar.LabelX lblNroDependencia;
+        private DevComponents.DotNetBar.ButtonX btnAgregarBien;
+        private DevComponents.DotNetBar.Controls.DataGridViewX GrillaBien;
+        private DevComponents.DotNetBar.LabelX lblDescripcion;
+        private DevComponents.DotNetBar.LabelX lblContacto;
+        private DevComponents.DotNetBar.LabelX lblAdjunto;
+        private DevComponents.DotNetBar.LabelX lblFechaInicio;
+        private DevComponents.DotNetBar.LabelX lblFechaFin;
+        private DevComponents.DotNetBar.LabelX lblResponsable;
+        private DevComponents.DotNetBar.LabelX lblPrioridad;
+        private DevComponents.DotNetBar.LabelX lblEstado;
         private DevComponents.DotNetBar.Controls.CheckBoxX cboxExpediente;
         private DevComponents.DotNetBar.Controls.TextBoxX txtExpediente;
+        private DevComponents.DotNetBar.Controls.TextBoxX txtBien;
+        private DevComponents.DotNetBar.Controls.TextBoxX txtCantidadBien;
+        private DevComponents.DotNetBar.Controls.TextBoxX txtResponsable;
+        private DevComponents.Editors.DateTimeAdv.DateTimeInput fchFin;
+        private DevComponents.Editors.DateTimeAdv.DateTimeInput fchInicio;
+        private DevComponents.DotNetBar.Controls.TextBoxX txtPrioridad;
+        private DevComponents.DotNetBar.Controls.TextBoxX txtEstado;
+        private DevComponents.DotNetBar.Controls.TextBoxX txtNroDepedencia;
+        private DevComponents.DotNetBar.Controls.TextBoxX txtDependencia;
+        private DevComponents.DotNetBar.Controls.TextBoxX txtDescripcion;
+        private DevComponents.DotNetBar.Controls.TextBoxX txtContacto;
+        private DevComponents.DotNetBar.Controls.TextBoxX txtAdjunto;
+        private DevComponents.DotNetBar.ButtonX btnCrearPeticion;
 
     }
 }

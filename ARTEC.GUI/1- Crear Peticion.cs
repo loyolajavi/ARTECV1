@@ -26,5 +26,30 @@ namespace ARTEC.GUI
             txtExpediente.Enabled = true;
             txtExpediente.Text = DateTime.Today.DayOfYear.ToString();
         }
+
+        private void textBoxX1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void _1__Crear_Peticion_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBoxX8_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dateTimeInput2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBoxX3_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
