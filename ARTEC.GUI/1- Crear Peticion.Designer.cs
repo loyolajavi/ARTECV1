@@ -61,6 +61,7 @@
             this.txtContacto = new DevComponents.DotNetBar.Controls.TextBoxX();
             this.txtAdjunto = new DevComponents.DotNetBar.Controls.TextBoxX();
             this.btnCrearPeticion = new DevComponents.DotNetBar.ButtonX();
+            this.labelX1 = new DevComponents.DotNetBar.LabelX();
             ((System.ComponentModel.ISupportInitialize)(this.GrillaBien)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.fchFin)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.fchInicio)).BeginInit();
@@ -72,7 +73,7 @@
             // 
             // 
             this.lblExpediente.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lblExpediente.Location = new System.Drawing.Point(12, 12);
+            this.lblExpediente.Location = new System.Drawing.Point(367, 115);
             this.lblExpediente.Name = "lblExpediente";
             this.lblExpediente.Size = new System.Drawing.Size(75, 23);
             this.lblExpediente.TabIndex = 1;
@@ -84,7 +85,7 @@
             // 
             // 
             this.lblBien.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lblBien.Location = new System.Drawing.Point(12, 62);
+            this.lblBien.Location = new System.Drawing.Point(12, 29);
             this.lblBien.Name = "lblBien";
             this.lblBien.Size = new System.Drawing.Size(75, 23);
             this.lblBien.TabIndex = 2;
@@ -96,7 +97,7 @@
             // 
             // 
             this.lblCantidadBien.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lblCantidadBien.Location = new System.Drawing.Point(12, 91);
+            this.lblCantidadBien.Location = new System.Drawing.Point(11, 69);
             this.lblCantidadBien.Name = "lblCantidadBien";
             this.lblCantidadBien.Size = new System.Drawing.Size(61, 23);
             this.lblCantidadBien.TabIndex = 3;
@@ -108,11 +109,11 @@
             // 
             // 
             this.lblDependencia.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lblDependencia.Location = new System.Drawing.Point(12, 239);
+            this.lblDependencia.Location = new System.Drawing.Point(11, 221);
             this.lblDependencia.Name = "lblDependencia";
-            this.lblDependencia.Size = new System.Drawing.Size(75, 23);
+            this.lblDependencia.Size = new System.Drawing.Size(133, 23);
             this.lblDependencia.TabIndex = 4;
-            this.lblDependencia.Text = "Dependencia";
+            this.lblDependencia.Text = "Datos Dependencia";
             // 
             // lblNroDependencia
             // 
@@ -120,9 +121,9 @@
             // 
             // 
             this.lblNroDependencia.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lblNroDependencia.Location = new System.Drawing.Point(93, 239);
+            this.lblNroDependencia.Location = new System.Drawing.Point(12, 246);
             this.lblNroDependencia.Name = "lblNroDependencia";
-            this.lblNroDependencia.Size = new System.Drawing.Size(75, 23);
+            this.lblNroDependencia.Size = new System.Drawing.Size(75, 13);
             this.lblNroDependencia.TabIndex = 5;
             this.lblNroDependencia.Text = "Nro";
             // 
@@ -130,7 +131,7 @@
             // 
             this.btnAgregarBien.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
             this.btnAgregarBien.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.btnAgregarBien.Location = new System.Drawing.Point(177, 91);
+            this.btnAgregarBien.Location = new System.Drawing.Point(234, 88);
             this.btnAgregarBien.Name = "btnAgregarBien";
             this.btnAgregarBien.Size = new System.Drawing.Size(75, 23);
             this.btnAgregarBien.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
@@ -159,7 +160,7 @@
             this.GrillaBien.DefaultCellStyle = dataGridViewCellStyle5;
             this.GrillaBien.EnableHeadersVisualStyles = false;
             this.GrillaBien.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(170)))), ((int)(((byte)(170)))));
-            this.GrillaBien.Location = new System.Drawing.Point(12, 120);
+            this.GrillaBien.Location = new System.Drawing.Point(11, 117);
             this.GrillaBien.Name = "GrillaBien";
             dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.Control;
@@ -169,7 +170,7 @@
             dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.Black;
             dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.GrillaBien.RowHeadersDefaultCellStyle = dataGridViewCellStyle6;
-            this.GrillaBien.Size = new System.Drawing.Size(335, 90);
+            this.GrillaBien.Size = new System.Drawing.Size(298, 90);
             this.GrillaBien.TabIndex = 7;
             // 
             // lblDescripcion
@@ -178,11 +179,11 @@
             // 
             // 
             this.lblDescripcion.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lblDescripcion.Location = new System.Drawing.Point(12, 282);
+            this.lblDescripcion.Location = new System.Drawing.Point(11, 369);
             this.lblDescripcion.Name = "lblDescripcion";
             this.lblDescripcion.Size = new System.Drawing.Size(75, 23);
             this.lblDescripcion.TabIndex = 8;
-            this.lblDescripcion.Text = "Descripcion";
+            this.lblDescripcion.Text = "Notas";
             // 
             // lblContacto
             // 
@@ -190,7 +191,7 @@
             // 
             // 
             this.lblContacto.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lblContacto.Location = new System.Drawing.Point(12, 366);
+            this.lblContacto.Location = new System.Drawing.Point(11, 286);
             this.lblContacto.Name = "lblContacto";
             this.lblContacto.Size = new System.Drawing.Size(75, 23);
             this.lblContacto.TabIndex = 9;
@@ -202,11 +203,12 @@
             // 
             // 
             this.lblAdjunto.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lblAdjunto.Location = new System.Drawing.Point(12, 406);
+            this.lblAdjunto.Location = new System.Drawing.Point(12, 337);
             this.lblAdjunto.Name = "lblAdjunto";
             this.lblAdjunto.Size = new System.Drawing.Size(75, 23);
             this.lblAdjunto.TabIndex = 10;
             this.lblAdjunto.Text = "Adjuntar oficio";
+            this.lblAdjunto.Click += new System.EventHandler(this.lblAdjunto_Click);
             // 
             // lblFechaInicio
             // 
@@ -238,7 +240,7 @@
             // 
             // 
             this.lblResponsable.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lblResponsable.Location = new System.Drawing.Point(367, 110);
+            this.lblResponsable.Location = new System.Drawing.Point(367, 145);
             this.lblResponsable.Name = "lblResponsable";
             this.lblResponsable.Size = new System.Drawing.Size(75, 23);
             this.lblResponsable.TabIndex = 13;
@@ -250,7 +252,7 @@
             // 
             // 
             this.lblPrioridad.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lblPrioridad.Location = new System.Drawing.Point(367, 139);
+            this.lblPrioridad.Location = new System.Drawing.Point(367, 174);
             this.lblPrioridad.Name = "lblPrioridad";
             this.lblPrioridad.Size = new System.Drawing.Size(75, 23);
             this.lblPrioridad.TabIndex = 14;
@@ -262,7 +264,7 @@
             // 
             // 
             this.lblEstado.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lblEstado.Location = new System.Drawing.Point(367, 168);
+            this.lblEstado.Location = new System.Drawing.Point(367, 203);
             this.lblEstado.Name = "lblEstado";
             this.lblEstado.Size = new System.Drawing.Size(75, 23);
             this.lblEstado.TabIndex = 15;
@@ -274,7 +276,7 @@
             // 
             // 
             this.cboxExpediente.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.cboxExpediente.Location = new System.Drawing.Point(79, 12);
+            this.cboxExpediente.Location = new System.Drawing.Point(425, 115);
             this.cboxExpediente.Name = "cboxExpediente";
             this.cboxExpediente.Size = new System.Drawing.Size(17, 23);
             this.cboxExpediente.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
@@ -292,12 +294,13 @@
             this.txtExpediente.DisabledBackColor = System.Drawing.Color.White;
             this.txtExpediente.Enabled = false;
             this.txtExpediente.ForeColor = System.Drawing.Color.Black;
-            this.txtExpediente.Location = new System.Drawing.Point(79, 12);
+            this.txtExpediente.Location = new System.Drawing.Point(448, 118);
             this.txtExpediente.Name = "txtExpediente";
             this.txtExpediente.PreventEnterBeep = true;
             this.txtExpediente.Size = new System.Drawing.Size(89, 20);
             this.txtExpediente.TabIndex = 17;
             this.txtExpediente.Visible = false;
+            this.txtExpediente.TextChanged += new System.EventHandler(this.txtExpediente_TextChanged);
             // 
             // txtBien
             // 
@@ -310,10 +313,10 @@
             this.txtBien.DisabledBackColor = System.Drawing.Color.White;
             this.txtBien.Enabled = false;
             this.txtBien.ForeColor = System.Drawing.Color.Black;
-            this.txtBien.Location = new System.Drawing.Point(79, 65);
+            this.txtBien.Location = new System.Drawing.Point(12, 48);
             this.txtBien.Name = "txtBien";
             this.txtBien.PreventEnterBeep = true;
-            this.txtBien.Size = new System.Drawing.Size(89, 20);
+            this.txtBien.Size = new System.Drawing.Size(297, 20);
             this.txtBien.TabIndex = 18;
             this.txtBien.Visible = false;
             this.txtBien.TextChanged += new System.EventHandler(this.textBoxX1_TextChanged);
@@ -329,10 +332,10 @@
             this.txtCantidadBien.DisabledBackColor = System.Drawing.Color.White;
             this.txtCantidadBien.Enabled = false;
             this.txtCantidadBien.ForeColor = System.Drawing.Color.Black;
-            this.txtCantidadBien.Location = new System.Drawing.Point(79, 94);
+            this.txtCantidadBien.Location = new System.Drawing.Point(12, 88);
             this.txtCantidadBien.Name = "txtCantidadBien";
             this.txtCantidadBien.PreventEnterBeep = true;
-            this.txtCantidadBien.Size = new System.Drawing.Size(29, 20);
+            this.txtCantidadBien.Size = new System.Drawing.Size(75, 20);
             this.txtCantidadBien.TabIndex = 19;
             this.txtCantidadBien.Visible = false;
             // 
@@ -347,7 +350,7 @@
             this.txtResponsable.DisabledBackColor = System.Drawing.Color.White;
             this.txtResponsable.Enabled = false;
             this.txtResponsable.ForeColor = System.Drawing.Color.Black;
-            this.txtResponsable.Location = new System.Drawing.Point(448, 113);
+            this.txtResponsable.Location = new System.Drawing.Point(448, 148);
             this.txtResponsable.Name = "txtResponsable";
             this.txtResponsable.PreventEnterBeep = true;
             this.txtResponsable.Size = new System.Drawing.Size(89, 20);
@@ -457,7 +460,7 @@
             this.txtPrioridad.DisabledBackColor = System.Drawing.Color.White;
             this.txtPrioridad.Enabled = false;
             this.txtPrioridad.ForeColor = System.Drawing.Color.Black;
-            this.txtPrioridad.Location = new System.Drawing.Point(448, 142);
+            this.txtPrioridad.Location = new System.Drawing.Point(448, 177);
             this.txtPrioridad.Name = "txtPrioridad";
             this.txtPrioridad.PreventEnterBeep = true;
             this.txtPrioridad.Size = new System.Drawing.Size(89, 20);
@@ -475,7 +478,7 @@
             this.txtEstado.DisabledBackColor = System.Drawing.Color.White;
             this.txtEstado.Enabled = false;
             this.txtEstado.ForeColor = System.Drawing.Color.Black;
-            this.txtEstado.Location = new System.Drawing.Point(448, 168);
+            this.txtEstado.Location = new System.Drawing.Point(448, 203);
             this.txtEstado.Name = "txtEstado";
             this.txtEstado.PreventEnterBeep = true;
             this.txtEstado.Size = new System.Drawing.Size(89, 20);
@@ -493,7 +496,7 @@
             this.txtNroDepedencia.DisabledBackColor = System.Drawing.Color.White;
             this.txtNroDepedencia.Enabled = false;
             this.txtNroDepedencia.ForeColor = System.Drawing.Color.Black;
-            this.txtNroDepedencia.Location = new System.Drawing.Point(117, 242);
+            this.txtNroDepedencia.Location = new System.Drawing.Point(12, 260);
             this.txtNroDepedencia.Name = "txtNroDepedencia";
             this.txtNroDepedencia.PreventEnterBeep = true;
             this.txtNroDepedencia.Size = new System.Drawing.Size(28, 20);
@@ -511,10 +514,10 @@
             this.txtDependencia.DisabledBackColor = System.Drawing.Color.White;
             this.txtDependencia.Enabled = false;
             this.txtDependencia.ForeColor = System.Drawing.Color.Black;
-            this.txtDependencia.Location = new System.Drawing.Point(151, 242);
+            this.txtDependencia.Location = new System.Drawing.Point(47, 260);
             this.txtDependencia.Name = "txtDependencia";
             this.txtDependencia.PreventEnterBeep = true;
-            this.txtDependencia.Size = new System.Drawing.Size(89, 20);
+            this.txtDependencia.Size = new System.Drawing.Size(262, 20);
             this.txtDependencia.TabIndex = 26;
             this.txtDependencia.Visible = false;
             // 
@@ -529,7 +532,7 @@
             this.txtDescripcion.DisabledBackColor = System.Drawing.Color.White;
             this.txtDescripcion.Enabled = false;
             this.txtDescripcion.ForeColor = System.Drawing.Color.Black;
-            this.txtDescripcion.Location = new System.Drawing.Point(79, 282);
+            this.txtDescripcion.Location = new System.Drawing.Point(11, 388);
             this.txtDescripcion.Multiline = true;
             this.txtDescripcion.Name = "txtDescripcion";
             this.txtDescripcion.PreventEnterBeep = true;
@@ -549,10 +552,10 @@
             this.txtContacto.DisabledBackColor = System.Drawing.Color.White;
             this.txtContacto.Enabled = false;
             this.txtContacto.ForeColor = System.Drawing.Color.Black;
-            this.txtContacto.Location = new System.Drawing.Point(79, 366);
+            this.txtContacto.Location = new System.Drawing.Point(11, 305);
             this.txtContacto.Name = "txtContacto";
             this.txtContacto.PreventEnterBeep = true;
-            this.txtContacto.Size = new System.Drawing.Size(89, 20);
+            this.txtContacto.Size = new System.Drawing.Size(133, 20);
             this.txtContacto.TabIndex = 28;
             this.txtContacto.Visible = false;
             // 
@@ -567,10 +570,10 @@
             this.txtAdjunto.DisabledBackColor = System.Drawing.Color.White;
             this.txtAdjunto.Enabled = false;
             this.txtAdjunto.ForeColor = System.Drawing.Color.Black;
-            this.txtAdjunto.Location = new System.Drawing.Point(93, 406);
+            this.txtAdjunto.Location = new System.Drawing.Point(92, 340);
             this.txtAdjunto.Name = "txtAdjunto";
             this.txtAdjunto.PreventEnterBeep = true;
-            this.txtAdjunto.Size = new System.Drawing.Size(254, 20);
+            this.txtAdjunto.Size = new System.Drawing.Size(187, 20);
             this.txtAdjunto.TabIndex = 29;
             this.txtAdjunto.Visible = false;
             // 
@@ -578,18 +581,31 @@
             // 
             this.btnCrearPeticion.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
             this.btnCrearPeticion.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.btnCrearPeticion.Location = new System.Drawing.Point(345, 483);
+            this.btnCrearPeticion.Location = new System.Drawing.Point(429, 413);
             this.btnCrearPeticion.Name = "btnCrearPeticion";
-            this.btnCrearPeticion.Size = new System.Drawing.Size(81, 23);
+            this.btnCrearPeticion.Size = new System.Drawing.Size(108, 40);
             this.btnCrearPeticion.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.btnCrearPeticion.TabIndex = 30;
             this.btnCrearPeticion.Text = "Crear Peticion";
+            // 
+            // labelX1
+            // 
+            // 
+            // 
+            // 
+            this.labelX1.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.labelX1.Location = new System.Drawing.Point(47, 246);
+            this.labelX1.Name = "labelX1";
+            this.labelX1.Size = new System.Drawing.Size(75, 13);
+            this.labelX1.TabIndex = 31;
+            this.labelX1.Text = "Nombre";
             // 
             // _1__Crear_Peticion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(641, 523);
+            this.ClientSize = new System.Drawing.Size(550, 472);
+            this.Controls.Add(this.labelX1);
             this.Controls.Add(this.btnCrearPeticion);
             this.Controls.Add(this.txtAdjunto);
             this.Controls.Add(this.txtContacto);
@@ -621,6 +637,7 @@
             this.Controls.Add(this.lblBien);
             this.Controls.Add(this.lblExpediente);
             this.DoubleBuffered = true;
+            this.ForeColor = System.Drawing.Color.Black;
             this.Name = "_1__Crear_Peticion";
             this.Text = "_1__Crear_Peticion";
             this.Load += new System.EventHandler(this._1__Crear_Peticion_Load);
@@ -663,6 +680,7 @@
         private DevComponents.DotNetBar.Controls.TextBoxX txtContacto;
         private DevComponents.DotNetBar.Controls.TextBoxX txtAdjunto;
         private DevComponents.DotNetBar.ButtonX btnCrearPeticion;
+        private DevComponents.DotNetBar.LabelX labelX1;
 
     }
 }

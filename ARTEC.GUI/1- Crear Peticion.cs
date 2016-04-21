@@ -51,5 +51,15 @@ namespace ARTEC.GUI
         {
 
         }
+
+        private void txtExpediente_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblAdjunto_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
