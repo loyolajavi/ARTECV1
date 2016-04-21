@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="c19bf731-41f7-425f-b6d9-cecd546d83a5" name="DiagramaClases" linkedPackageId="14860551-76da-4c3f-b7e4-a2376b666fc0" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="4531fae9-4414-4d06-958a-b342973a8f29">
+      <profileInstance Id="03528dc2-0b01-43cf-b002-0912dbf236eb" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="a31b18f3-b012-4ec0-b61d-e149791bac33">
+      <profileInstance Id="06dc65f5-2dad-4efa-980e-9b43811a7e81" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="f6cd8486-c15e-4578-a843-47f5c390ba1f" name="Solicitud" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="99a7a156-50b0-4519-86c6-99ba86f91e94" />
+        <ownedAttributesInternal>
+          <property Id="a43cfdb5-4b9a-4fc7-a78e-3d7700bc5917" name="IDSolicitud" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="ceda6b0b-8a96-415a-a258-1ffc3827e867" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="14860551-76da-4c3f-b7e4-a2376b666fc0" name="DIAGRAMAS.ENTIDADES">
+    <elementDefinition Id="8de36954-019c-41ae-86ed-914d7729a769" />
+  </package>
+</logicalClassDesignerModel>
