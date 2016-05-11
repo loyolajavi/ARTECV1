@@ -31,7 +31,7 @@ namespace ARTEC.ENTIDADES
         public Estado unEstado { get; set; }
         public int MyProperty { get; set; }
 
-
+        //
 
     }
 }
