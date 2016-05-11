@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 
 namespace ARTEC.ENTIDADES
 {
-
     public class Solicitud
     {
 
@@ -18,6 +17,12 @@ namespace ARTEC.ENTIDADES
         /// The fecha inicio.
         /// </value>
         public DateTime FechaInicio { get; set; }
+        /// <summary>
+        /// Gets or sets the fecha fin.
+        /// </summary>
+        /// <value>
+        /// The fecha fin.
+        /// </value>
         public DateTime FechaFin { get; set; }
         public string Contacto { get; set; }
         public Dependencia unaDependencia { get; set; }
