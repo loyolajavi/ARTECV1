@@ -37,7 +37,6 @@
             this.metroTileItem3 = new DevComponents.DotNetBar.Metro.MetroTileItem();
             this.metroTileItem4 = new DevComponents.DotNetBar.Metro.MetroTileItem();
             this.metroTileItem5 = new DevComponents.DotNetBar.Metro.MetroTileItem();
-            this.metroTileItem6 = new DevComponents.DotNetBar.Metro.MetroTileItem();
             this.SuspendLayout();
             // 
             // styleManager1
@@ -76,8 +75,7 @@
             this.metroTileItem2,
             this.metroTileItem3,
             this.metroTileItem4,
-            this.metroTileItem5,
-            this.metroTileItem6});
+            this.metroTileItem5});
             // 
             // 
             // 
@@ -138,17 +136,6 @@
             // 
             this.metroTileItem5.TileStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             // 
-            // metroTileItem6
-            // 
-            this.metroTileItem6.Name = "metroTileItem6";
-            this.metroTileItem6.SymbolColor = System.Drawing.Color.Empty;
-            this.metroTileItem6.Text = "metroTileItem6";
-            this.metroTileItem6.TileColor = DevComponents.DotNetBar.Metro.eMetroTileColor.Default;
-            // 
-            // 
-            // 
-            this.metroTileItem6.TileStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -156,7 +143,6 @@
             this.ClientSize = new System.Drawing.Size(1010, 642);
             this.Controls.Add(this.itemPanel1);
             this.DoubleBuffered = true;
-            this.ForeColor = System.Drawing.Color.Black;
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -174,7 +160,6 @@
         private DevComponents.DotNetBar.Metro.MetroTileItem metroTileItem3;
         private DevComponents.DotNetBar.Metro.MetroTileItem metroTileItem4;
         private DevComponents.DotNetBar.Metro.MetroTileItem metroTileItem5;
-        private DevComponents.DotNetBar.Metro.MetroTileItem metroTileItem6;
 
     }
 }
